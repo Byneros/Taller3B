@@ -2,7 +2,7 @@ const express = require("express");
 const conectarDB = require("./Config/db");
 const RutaEmpleado =  require("./routes/routes.tareaController");
 const app = express();
-const cors = require('./Backend/Config/cors');
+const cors = require('../Config/cors');
 
 app.use(express.json());
 app.use(cors);
