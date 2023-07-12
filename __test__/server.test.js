@@ -1,5 +1,5 @@
 const express = require('express');
-const tareasRoutes = require('../routes/tarea');
+const tareasRoutes = require('../routes/routes.tareaController');
 const app = express();
 app.use(express.json());
 app.use('/tarea', tareasRoutes);
